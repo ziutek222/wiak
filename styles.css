@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: brown;
+    max-width: 1400px;
+    margin: auto;
+}
+.header{
+    color: black;
+    font-size: 90%;
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;
+    overflow: hidden;
+}
+
+.navigation{
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    overflow: hidden;
+
+}
+
+.sidepanel{
+    width: 20%;
+    height: auto;
+    float: left;
+    padding: 1em;
+}
+
+.article{
+    width: 80%;
+    height: auto;
+    float: left;
+    padding: 1em;
+    color: gray;
+    font-size: 0.9em;
+}
+.article img{
+    width: 100%;
+}
+
+.footer{
+    overflow: hidden;
+    width: 100%;
+}
+.footer *{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navigation{
+       opacity: 0;
+    }
+    .sidepanel{
+        width: 100%;
+        float: left;
+        color: navy;
+        font-size: 0.8em;
+    }
+    .article{
+        width: 100%;
+        float: left;
+        color: navy;
+        font-size: 0.8em;
+        margin-top: 1.2em;
+    }
+}
