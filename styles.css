@@ -35,6 +35,17 @@
     overflow: hidden;
 
 }
+.tr{
+    width: 100%;
+    visibility: hidden;
+    background-color: cadetblue;
+    height: 0px;
+}
+#toggle:checked ~ * .tr {
+    visibility: visible;
+    height: auto;
+    transition:all 6s ease-in;
+}
 
 .sidepanel{
     width: 20%;
